@@ -1,0 +1,49 @@
+body {
+	height: 100%;
+	width: 100%;
+	display: inline-table;
+    margin: 0 auto;
+}
+#contenedor_chat {
+	display: table-cell;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 100px;
+	width: 400px;
+	background-color: #ffc10742;
+    border-radius: 8px 8px 0px 0px;
+    font-family: sans-serif;
+}
+.credito {
+	color: #b7b7b7;
+	font-size: 14px;
+}
+#salida {
+	background-color: #ffefbf;
+}
+#nombre {
+	border: 1px;
+	height: 30px;
+    width: 60px;
+    display: block;
+    border-radius: 8px;
+    background-color: #e6e6e6;
+}
+#mensaje {
+	margin: 0 auto;
+	border: 0px;
+	height: 50px;
+    width: 98%;
+    display: block;
+    border-radius: 8px 8px 0px 0px;
+    background-color: #e6e6e6;
+}
+#enviar {
+	border: 0px;
+	border-radius: 8px 8px 8px 8px;
+    background-color: #FFC107;
+    height: 50px;
+    width: 98%;
+}

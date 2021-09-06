@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<title>Chat Socket</title>
+</head>
+<body>
+	<div id="contenedor_chat">
+		<div id="chat-window">
+			<p id="usuario_nom" style="display: none;"></p>
+			<input type="text" id="nombre" placeholder="  Usuario"></br>
+			<div id="salida"></div>
+			<div id="accion"></div>
+		</div>
+		<input type="text" id="mensaje" placeholder="   Mensaje"></br>
+		<button id="enviar"><h3>Enviar</h3></button>
+		<p><h4 class="credito">Creado por: Fernando Osorio | 2020</h4></p>
+	</div>
+</body>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="chat.js"></script>
+</html>
